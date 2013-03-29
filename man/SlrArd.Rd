@@ -1,3 +1,8 @@
+% File sprsmdl/man/SlrArd.Rd
+% Part of the sprsmdl package for R
+% Copyright 2013 Hiroshi Saito
+% Distributed under GPL 2 or later
+
 \name{SlrArd}
 \alias{SlrArd}
 \title{

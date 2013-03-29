@@ -1,3 +1,15 @@
+2013-03-29  Hiroshi Saito  <die.saito@gmail.com>
+
+	* man/sprsmdl-package.Rd: Add license header.
+
+	* man/sprsmdl-internal.Rd: Add license header.
+
+	* man/SlrArd.Rd: Add license header.
+
+	* R/SlrArd.R: Add license header.
+
+	* DESCRIPTION: Change license to GPL (>= 2) from GPL-2.
+
 2013-03-28  Hiroshi Saito  <die.saito@gmail.com>
 
 	* ChangeLog: Created.
