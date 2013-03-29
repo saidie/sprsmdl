@@ -1,0 +1,5 @@
+Version 0.1-0
+
+* Added: function SlrArd that implements the sparse logistic regression with
+  automatic relevance determination. Three methods based on the local
+  variational method are provided.

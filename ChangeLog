@@ -1,0 +1,18 @@
+2013-03-28  Hiroshi Saito  <die.saito@gmail.com>
+
+	* ChangeLog: Created.
+
+	* DESCRIPTION: Created.
+
+	* NAMESPACE: Export only SlrArd.
+
+	* inst/NEWS: Created.
+
+	* man/sprsmdl-package.Rd: New document.
+
+	* man/sprsmdl-internal.Rd: New document.
+
+	* man/SlrArd.Rd (SlrArd): New document.
+
+	* R/SlrArd.R (SlrArd): New function.
+	(sigmoid): New function.
