@@ -160,14 +160,14 @@ SlrArd <- function(T, X, bias=TRUE, method=c("VB", "VBMacKay", "PX-VB"),
       }
 
       eta <- eta[eff]
-      tt <- tt[,eff]
+      tt <- as.matrix(nrow=N, ncol=sum(eff), tt[,eff])
       tmp <- colSums(tt)
-      X <- X[,eff]
+      X <- as.matrix(nrow=N, ncol=sum(eff), X[,eff])
       mu <- mu[eff]
       b <- b[eff]
       is <- is[eff]
 
-      XX <- XX[,as.logical(c(cbind(eff) %*% eff))]
+      XX <- as.matrix(nrow=N, ncol=sum(eff), XX[,as.logical(c(cbind(eff) %*% eff))])
       S <- matrix(nrow=length(is), S[as.logical(c(cbind(eff) %*% eff))])
 
 ##      LB <- -Inf
